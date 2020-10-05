@@ -1,7 +1,9 @@
 package ch.thomaspauli.publibike;
 
 import ch.thomaspauli.publibike.entities.Station;
+
 import com.google.gson.Gson;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -43,6 +45,9 @@ public class App {
             Station station = gson.fromJson(sb.toString(), Station.class);
 
             System.out.println(station.getId());
+
+            /*Map<VehicleType, List<Vehicle>> vehicles = station.getVehicles().stream().collect(Collectors.groupingBy(
+                Vehicle::getType));*/
 
         } catch (IOException e) {
             LOG.error(e);

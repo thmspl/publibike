@@ -1,4 +1,4 @@
 package ch.thomaspauli.publibike.services;
 
-public class StationService {
+public class StationService extends AbstractService {
 }

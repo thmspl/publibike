@@ -28,6 +28,7 @@
   </properties>
 
   <dependencies>
+    <!-- # Logging -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
@@ -39,18 +40,21 @@
       <version>${dependency.log4j2.version}</version>
     </dependency>
 
+    <!-- # Network -->
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
       <version>${dependency.apache-httpcomponents.version}</version>
     </dependency>
 
+    <!-- # JSON -->
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>${dependency.gson.version}</version>
     </dependency>
-
+    
+    <!-- # Testing -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

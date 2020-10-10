@@ -53,7 +53,7 @@
       <artifactId>gson</artifactId>
       <version>${dependency.gson.version}</version>
     </dependency>
-    
+
     <!-- # Testing -->
     <dependency>
       <groupId>junit</groupId>

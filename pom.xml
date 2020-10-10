@@ -13,6 +13,8 @@
   <name>publibike</name>
   <url>https://publibike.pauli.tools</url>
 
+  <packaging>jar</packaging>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 

@@ -5,10 +5,12 @@ import ch.thomaspauli.publibike.network.Request;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpRequestBase;
 
-public class StationsRequest extends Request<Station[]> {
+public class StationRequest extends Request<Station> {
 
     @Override
-    protected Class<Station[]> getTargetClass() { return Station[].class; }
+    protected Class<Station> getTargetClass() {
+        return Station.class;
+    }
 
     @Override
     protected HttpRequestBase getHttpRequest() {

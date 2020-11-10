@@ -4,6 +4,11 @@ import com.google.gson.annotations.SerializedName;
 
 import java.math.BigDecimal;
 
+/**
+ * {@link Vehicle}
+ * 
+ * @author thomas pauli | pauli.solutions
+ */
 public class Vehicle extends AbstractEntity {
 
     @SerializedName("ebike_battery_level")

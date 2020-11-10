@@ -1,5 +1,10 @@
 package ch.thomaspauli.publibike.entities;
 
+/**
+ * {@link IEntity}
+ * 
+ * @author thomas pauli | pauli.solutions
+ */
 public interface IEntity {
 
     /**

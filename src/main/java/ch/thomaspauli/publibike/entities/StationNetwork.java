@@ -2,6 +2,11 @@ package ch.thomaspauli.publibike.entities;
 
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * {@link StationNetwork}
+ * 
+ * @author thomas pauli | pauli.solutions
+ */
 public class StationNetwork extends AbstractEntity {
 
     @SerializedName("background_img")

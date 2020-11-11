@@ -1,7 +1,10 @@
-package ch.thomaspauli.publibike.network.requests;
+package ch.thomaspauli.publibike.network.requests.stations;
 
 import ch.thomaspauli.publibike.entities.Station;
-import ch.thomaspauli.publibike.network.Request;
+
+import ch.thomaspauli.publibike.network.requests.Request;
+import ch.thomaspauli.publibike.network.utils.RequestType;
+import ch.thomaspauli.publibike.network.utils.UrlBuilder;
 
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpRequestBase;
@@ -13,6 +16,6 @@ public class StationsRequest extends Request<Station[]> {
 
     @Override
     protected HttpRequestBase getHttpRequest() {
-        return new HttpGet("https://api.publibike.ch/v1/public/stations");
+        return new HttpGet(UrlBuilder.build(RequestType.STATIONS));
     }
 }

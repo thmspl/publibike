@@ -1,5 +1,6 @@
-package ch.thomaspauli.publibike.network;
+package ch.thomaspauli.publibike.network.requests;
 
+import ch.thomaspauli.publibike.entities.IEntity;
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;

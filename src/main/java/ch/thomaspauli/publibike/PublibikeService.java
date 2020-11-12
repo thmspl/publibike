@@ -13,7 +13,8 @@ import org.slf4j.LoggerFactory;
 
 public class PublibikeService extends AbstractService {
 
-    public static final Logger LOG = LoggerFactory.getLogger(PublibikeService.class);
+    // logger
+    private static final Logger LOG = LoggerFactory.getLogger(PublibikeService.class);
 
     protected StationRequest getStationRequest(Long id) {
         return new StationRequest(id);
@@ -35,6 +36,9 @@ public class PublibikeService extends AbstractService {
         return Arrays.asList(getStationsRequest().executeRequest());
     }
 
+    /**
+     * @see AbstractService#getLogger()
+     */
     @Override
     Logger getLogger() {
         return LOG;

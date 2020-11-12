@@ -11,9 +11,15 @@ import org.apache.http.client.methods.HttpRequestBase;
 
 public class StationsRequest extends Request<Station[]> {
 
+    /**
+     * @see Request#getTargetClass()
+     */
     @Override
     protected Class<Station[]> getTargetClass() { return Station[].class; }
 
+    /**
+     * @see Request#getHttpRequest()
+     */
     @Override
     protected HttpRequestBase getHttpRequest() {
         return new HttpGet(UrlBuilder.build(RequestType.STATIONS));

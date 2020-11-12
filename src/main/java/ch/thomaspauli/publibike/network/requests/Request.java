@@ -1,6 +1,5 @@
 package ch.thomaspauli.publibike.network.requests;
 
-import ch.thomaspauli.publibike.entities.IEntity;
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
@@ -18,23 +17,27 @@ import org.slf4j.LoggerFactory;
 
 public abstract class Request<E> {
 
+    // logger
     private static final Logger LOG = LoggerFactory.getLogger(Request.class);
 
     /**
+     * Returns the target return class for the {@link Request}.
      *
-     * @return
+     * @return The target return class for the {@link Request}.
      */
     protected abstract Class<E> getTargetClass();
 
     /**
+     * Returns the specific {@link HttpRequestBase} for the {@link Request}.
      *
-     * @return
+     * @return The specific {@link HttpRequestBase} for the {@link Request}.
      */
     protected abstract HttpRequestBase getHttpRequest();
 
     /**
+     * Executes the {@link Request} and returns the response as the given target class.
      *
-     * @return
+     * @return The {@link Request} response as the given target class.
      */
     public E executeRequest() {
 

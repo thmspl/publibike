@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
  */
 public class Vehicle extends AbstractEntity {
 
-    public static final Logger LOG = LoggerFactory.getLogger(Vehicle.class);
+    private static final Logger LOG = LoggerFactory.getLogger(Vehicle.class);
 
     @SerializedName("ebike_battery_level")
     private BigDecimal ebikeBatteryLevel;

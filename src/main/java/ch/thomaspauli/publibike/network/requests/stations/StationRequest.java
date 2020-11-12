@@ -18,11 +18,17 @@ public class StationRequest extends Request<Station> {
         this.id = id;
     }
 
+    /**
+     * @see Request#getTargetClass()
+     */
     @Override
     protected Class<Station> getTargetClass() {
         return Station.class;
     }
 
+    /**
+     * @see Request#getHttpRequest()
+     */
     @Override
     protected HttpRequestBase getHttpRequest() {
         return new HttpGet(UrlBuilder.build(RequestType.STATION, this.id));

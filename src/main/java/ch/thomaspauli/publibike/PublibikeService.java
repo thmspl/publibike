@@ -24,12 +24,23 @@ public class PublibikeService extends AbstractService {
         return new StationsRequest();
     }
 
+    /**
+     * Returns the {@link Station} by the given id.
+     *
+     * @param id The id of the {@link Station} which should be returned.
+     * @return The {@link Station} by the given id.
+     */
     public Station getStation(Long id) {
         logServiceCall("getStation(Long)", id);
 
         return getStationRequest(id).executeRequest();
     }
 
+    /**
+     * Returns all existing {@link Station}s.
+     *
+     * @return All existing {@link Station}s.
+     */
     public List<Station> getStations() {
         logServiceCall("getStations()");
 

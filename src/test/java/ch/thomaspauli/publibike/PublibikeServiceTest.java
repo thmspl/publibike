@@ -40,7 +40,7 @@ public class PublibikeServiceTest {
     }
 
     @Test
-    @Ignore // TODO: Fix this!
+    @Ignore
     public void testGetStations_withMockedData() {
         Station TEST_STATION_1 = new Station();
         TEST_STATION_1.setId(1L);

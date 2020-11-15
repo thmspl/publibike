@@ -9,16 +9,6 @@
 
 <p align="center">A lightweight Java wrapper for the PubliBike API to fetch informations about the bicycles.</p>
 
-## Tech Stack
-
-<p align="center">
-  <img height="55" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__java.png?raw=true" />
-  <img height="40" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__gson.png?raw=true" />
-  <img height="40" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__apache_http_components.png?raw=true" />
-  <img height="35" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__junit.png?raw=true" />
-  <img height="50" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__mockito.png?raw=true" />
-</p>
-
 ## Endpoints
 
 On the official website of PubliBike you can find a map with all stations and the specific amount of vehicles at those stations ([here](https://www.publibike.ch/de/publibike/stations)). So I found out that the map is using 2 public endpoints which can be used to gather informations about the stations and vehicles.

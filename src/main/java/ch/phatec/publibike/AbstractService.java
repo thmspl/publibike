@@ -26,6 +26,9 @@ abstract class AbstractService {
      * @param params The parameters of the method.
      */
     void logServiceCall(String methodName, Object... params) {
-        getLogger().trace("Service call: " + methodName + " / with: " + Arrays.stream(params).map(Object::toString).collect(Collectors.joining(",")));
+        getLogger().trace(
+                String.format("Service call: %s / with params: %s",
+                        methodName,
+                        Arrays.stream(params).map(Object::toString).collect(Collectors.joining(","))));
    }
 }

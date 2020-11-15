@@ -9,12 +9,42 @@
 
 <p align="center">A lightweight Java wrapper for the PubliBike API to fetch informations about the bicycles.</p>
 
-## Technologies
+## Tech Stack
 
 <p align="center">
   <img height="55" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__java.png?raw=true" />
   <img height="40" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__gson.png?raw=true" />
-  <img height="50" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__apache_http_components.png?raw=true" />
+  <img height="40" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__apache_http_components.png?raw=true" />
   <img height="35" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__junit.png?raw=true" />
   <img height="50" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__mockito.png?raw=true" />
 </p>
+
+## Getting started
+
+**Fetch all stations**
+
+````java
+PublibikeService service = new PublibikeService();
+
+List<Station> stations = service.getStations();
+````
+
+**Fetch one station**
+
+````java
+PublibikeService service = new PublibikeService();
+Long stationId = 100L;
+
+Station station = service.getStation(stationId);
+````
+
+**Get all vehicles at a station**
+
+````java
+PublibikeService service = new PublibikeService();
+Long stationId = 100L;
+
+Station station = service.getStation(stationId);
+
+List<Vehicle> vehicles = station.getVehicles();
+````

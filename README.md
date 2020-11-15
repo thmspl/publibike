@@ -21,7 +21,7 @@
 
 ## Getting started
 
-**Fetch all stations**
+**Fetch all stations.**
 
 ````java
 PublibikeService service = new PublibikeService();
@@ -29,7 +29,7 @@ PublibikeService service = new PublibikeService();
 List<Station> stations = service.getStations();
 ````
 
-**Fetch one station**
+**Fetch one station.**
 
 ````java
 PublibikeService service = new PublibikeService();
@@ -38,7 +38,7 @@ Long stationId = 100L;
 Station station = service.getStation(stationId);
 ````
 
-**Get all vehicles at a station**
+**Get all vehicles at a station.**
 
 ````java
 PublibikeService service = new PublibikeService();

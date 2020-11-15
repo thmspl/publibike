@@ -7,4 +7,14 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
 </p>
 
-A lightweight Java wrapper for the PubliBike API to fetch informations about the bicycles.
+<p align="center">A lightweight Java wrapper for the PubliBike API to fetch informations about the bicycles.</p>
+
+## Technologies
+
+<p align="center">
+  <img height="55" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__java.png?raw=true" />
+  <img height="40" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__gson.png?raw=true" />
+  <img height="50" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__apache_http_components.png?raw=true" />
+  <img height="35" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__junit.png?raw=true" />
+  <img height="50" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__mockito.png?raw=true" />
+</p>

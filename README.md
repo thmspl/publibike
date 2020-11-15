@@ -21,7 +21,7 @@
 
 ## Endpoints
 
-On the official website of PubliBike you can find a map ([here](https://www.publibike.ch/de/publibike/stations)). By clicking around an checking the network tab of my browser I found out, that there are 2 public endpoints which can be used to gather informations about the stations and vehicles.
+On the official website of PubliBike you can find a map with all stations and the specific amount of vehicles at those stations ([here](https://www.publibike.ch/de/publibike/stations)). So I found out that the map is using 2 public endpoints which can be used to gather informations about the stations and vehicles.
 
 These are the endpoints I've discovered:
 

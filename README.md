@@ -7,7 +7,7 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
 </p>
 
-<p align="center">A lightweight Java wrapper for the PubliBike API to fetch informations about the bicycles.</p>
+<p align="center">A Java wrapper for the PubliBike API to fetch informations about the bicycles.</p>
 
 On the official website of PubliBike you can find a map with all stations and the specific amount of vehicles at those stations ([here](https://www.publibike.ch/de/publibike/stations)). So I found out that the map is using 2 public endpoints which can be used to gather informations about the stations and vehicles.
 

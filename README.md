@@ -19,6 +19,18 @@
   <img height="50" src="https://github.com/thmspl/publibike/blob/develop/.assets/technologies/tech__mockito.png?raw=true" />
 </p>
 
+## Endpoints
+
+On the official website of PubliBike you can find a map ([here](https://www.publibike.ch/de/publibike/stations)). By clicking around an checking the network tab of my browser I found out, that there are 2 public endpoints which can be used to gather informations about the stations and vehicles.
+
+These are the endpoints I've discovered:
+
+````
+GET https://api.publibike.ch/v1/public/stations
+
+GET https://api.publibike.ch/v1/public/stations/{ID}
+````
+
 ## Getting started
 
 **Fetch all stations.**

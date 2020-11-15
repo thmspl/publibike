@@ -1,4 +1,4 @@
-package ch.thomaspauli.publibike.network.requests;
+package ch.phatec.publibike.network.requests;
 
 import com.google.gson.Gson;
 
@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory;
 /**
  * {@link Request}
  *
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 public abstract class Request<E> {
 

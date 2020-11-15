@@ -1,9 +1,9 @@
-package ch.thomaspauli.publibike.entities;
+package ch.phatec.publibike.entities;
 
 /**
  * {@link AbstractEntity}
  * 
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 public abstract class AbstractEntity implements IEntity {
 

@@ -1,9 +1,9 @@
-package ch.thomaspauli.publibike.entities;
+package ch.phatec.publibike.entities;
 
 /**
  * {@link IEntity}
  * 
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 public interface IEntity {
 

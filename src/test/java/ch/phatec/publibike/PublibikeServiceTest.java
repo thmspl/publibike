@@ -1,9 +1,9 @@
-package ch.thomaspauli.publibike;
+package ch.phatec.publibike;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import ch.thomaspauli.publibike.entities.Station;
+import ch.phatec.publibike.entities.Station;
 
 import java.util.List;
 

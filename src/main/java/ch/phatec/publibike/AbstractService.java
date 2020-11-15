@@ -1,4 +1,4 @@
-package ch.thomaspauli.publibike;
+package ch.phatec.publibike;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 /**
  * {@link AbstractService}
  *
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 abstract class AbstractService {
 

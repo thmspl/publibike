@@ -1,4 +1,4 @@
-package ch.thomaspauli.publibike.network.utils;
+package ch.phatec.publibike.network.utils;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 /**
  * {@link UrlBuilder}
  *
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 public class UrlBuilder {
 

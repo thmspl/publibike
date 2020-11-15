@@ -1,9 +1,8 @@
-package ch.thomaspauli.publibike;
+package ch.phatec.publibike;
 
-import ch.thomaspauli.publibike.entities.Station;
-
-import ch.thomaspauli.publibike.network.requests.stations.StationRequest;
-import ch.thomaspauli.publibike.network.requests.stations.StationsRequest;
+import ch.phatec.publibike.entities.Station;
+import ch.phatec.publibike.network.requests.stations.StationRequest;
+import ch.phatec.publibike.network.requests.stations.StationsRequest;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,7 +13,7 @@ import org.slf4j.LoggerFactory;
 /**
  * {@link PublibikeService}
  *
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 public class PublibikeService extends AbstractService {
 

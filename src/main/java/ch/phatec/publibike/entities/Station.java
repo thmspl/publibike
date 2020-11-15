@@ -1,4 +1,4 @@
-package ch.thomaspauli.publibike.entities;
+package ch.phatec.publibike.entities;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -8,7 +8,7 @@ import com.google.gson.annotations.SerializedName;
 /**
  * {@link Station}
  * 
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 public class Station extends AbstractEntity {
 

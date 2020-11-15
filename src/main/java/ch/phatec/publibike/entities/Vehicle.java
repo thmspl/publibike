@@ -1,4 +1,4 @@
-package ch.thomaspauli.publibike.entities;
+package ch.phatec.publibike.entities;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * {@link Vehicle}
  * 
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 public class Vehicle extends AbstractEntity {
 

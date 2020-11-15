@@ -1,4 +1,4 @@
-package ch.thomaspauli.publibike.network.utils;
+package ch.phatec.publibike.network.utils;
 
 import org.junit.Test;
 

@@ -1,9 +1,9 @@
-package ch.thomaspauli.publibike.entities;
+package ch.phatec.publibike.entities;
 
 /**
  * {@link VehicleType}
  * 
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 public class VehicleType extends AbstractEntity {
 }

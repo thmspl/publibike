@@ -1,11 +1,11 @@
-package ch.thomaspauli.publibike.entities;
+package ch.phatec.publibike.entities;
 
 import com.google.gson.annotations.SerializedName;
 
 /**
  * {@link StationNetwork}
  * 
- * @author thomas pauli | pauli.solutions
+ * @author thomas pauli | phatec.ch
  */
 public class StationNetwork extends AbstractEntity {
 

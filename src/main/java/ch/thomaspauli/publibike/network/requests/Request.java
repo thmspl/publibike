@@ -15,6 +15,11 @@ import org.apache.http.impl.client.HttpClients;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * {@link Request}
+ *
+ * @author thomas pauli | pauli.solutions
+ */
 public abstract class Request<E> {
 
     // logger

@@ -9,6 +9,11 @@ import java.util.HashMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * {@link UrlBuilder}
+ *
+ * @author thomas pauli | pauli.solutions
+ */
 public class UrlBuilder {
 
     private static final Logger LOG = LoggerFactory.getLogger(UrlBuilder.class);

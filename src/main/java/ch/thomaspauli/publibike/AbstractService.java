@@ -5,6 +5,11 @@ import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 
+/**
+ * {@link AbstractService}
+ *
+ * @author thomas pauli | pauli.solutions
+ */
 abstract class AbstractService {
 
     /**

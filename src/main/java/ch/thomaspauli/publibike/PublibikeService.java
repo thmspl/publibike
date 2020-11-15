@@ -11,6 +11,11 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * {@link PublibikeService}
+ *
+ * @author thomas pauli | pauli.solutions
+ */
 public class PublibikeService extends AbstractService {
 
     // logger

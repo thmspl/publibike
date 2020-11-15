@@ -9,6 +9,11 @@ import ch.thomaspauli.publibike.network.utils.UrlBuilder;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpRequestBase;
 
+/**
+ * {@link StationsRequest}
+ *
+ * @author thomas pauli | pauli.solutions
+ */
 public class StationsRequest extends Request<Station[]> {
 
     /**

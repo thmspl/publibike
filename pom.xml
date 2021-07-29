@@ -6,7 +6,7 @@
 
     <groupId>ch.phatec</groupId>
     <artifactId>publibike</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
 
     <packaging>jar</packaging>
 
@@ -45,7 +45,7 @@
         <url>https://github.com/thmspl/publibike</url>
         <connection>scm:git:git@github.com:thmspl/publibike.git</connection>
         <developerConnection>scm:git:git@github.com:thmspl/publibike.git</developerConnection>
-        <tag>publibike-1.1</tag>
+        <tag>publibike-1.2</tag>
     </scm>
 
     <properties>

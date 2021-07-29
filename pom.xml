@@ -6,7 +6,7 @@
 
     <groupId>ch.phatec.publibike</groupId>
     <artifactId>publibike</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
 
     <packaging>jar</packaging>
 
@@ -45,8 +45,8 @@
         <url>https://github.com/thmspl/publibike</url>
         <connection>scm:git:git@github.com:thmspl/publibike.git</connection>
         <developerConnection>scm:git:git@github.com:thmspl/publibike.git</developerConnection>
-      <tag>publibike-1.1</tag>
-  </scm>
+        <tag>publibike-1.1</tag>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -148,7 +148,24 @@
                     <useReleaseProfile>false</useReleaseProfile>
                     <releaseProfiles>release</releaseProfiles>
                     <goals>deploy</goals>
+                    <localCheckout>true</localCheckout>
+                    <pushChanges>false</pushChanges>
+                    <mavenExecutorId>forked-path</mavenExecutorId>
+                    <arguments>-Dgpg.passphrase=${gpg.passphrase}</arguments>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.0.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

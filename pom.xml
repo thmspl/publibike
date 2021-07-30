@@ -232,6 +232,7 @@
                     <useReleaseProfile>false</useReleaseProfile>
                     <localCheckout>true</localCheckout>
                     <releaseProfiles>release</releaseProfiles>
+                    <pushChanges>false</pushChanges>
                     <goals>deploy</goals>
                 </configuration>
             </plugin>

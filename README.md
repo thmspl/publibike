@@ -21,6 +21,16 @@ GET https://api.publibike.ch/v1/public/stations
 GET https://api.publibike.ch/v1/public/stations/{ID}
 ````
 
+## Maven
+
+````xml
+<dependency>
+  <groupId>ch.phatec</groupId>
+  <artifactId>publibike</artifactId>
+  <version>1.5</version>
+</dependency>
+````
+
 ## Getting started
 
 **Fetch all stations.**

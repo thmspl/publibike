@@ -3,7 +3,7 @@ package ch.phatec.publibike.network.utils;
 /**
  * {@link RequestType}
  *
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public enum RequestType {
     STATION,

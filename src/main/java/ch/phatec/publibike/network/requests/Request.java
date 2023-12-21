@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory;
 /**
  * {@link Request}
  *
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public abstract class Request<E> {
 
@@ -54,7 +54,7 @@ public abstract class Request<E> {
                 (new InputStreamReader(
                     response.getEntity().getContent()));
 
-            String line = null;
+            String line;
             StringBuilder sb = new StringBuilder();
 
             while ((line = rd.readLine()) != null) {

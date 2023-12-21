@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * {@link Vehicle}
  * 
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public class Vehicle extends AbstractEntity {
 

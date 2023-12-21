@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 /**
  * {@link UrlBuilder}
  *
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public class UrlBuilder {
 

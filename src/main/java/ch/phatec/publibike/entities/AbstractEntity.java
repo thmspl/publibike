@@ -3,7 +3,7 @@ package ch.phatec.publibike.entities;
 /**
  * {@link AbstractEntity}
  * 
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public abstract class AbstractEntity implements IEntity {
 

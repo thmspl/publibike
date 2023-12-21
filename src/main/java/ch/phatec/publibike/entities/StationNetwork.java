@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 /**
  * {@link StationNetwork}
  * 
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public class StationNetwork extends AbstractEntity {
 

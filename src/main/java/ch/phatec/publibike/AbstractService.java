@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 /**
  * {@link AbstractService}
  *
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 abstract class AbstractService {
 

@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 /**
  * {@link PublibikeService}
  *
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public class PublibikeService extends AbstractService {
 

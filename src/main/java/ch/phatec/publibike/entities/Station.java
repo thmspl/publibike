@@ -8,7 +8,7 @@ import com.google.gson.annotations.SerializedName;
 /**
  * {@link Station}
  * 
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public class Station extends AbstractEntity {
 

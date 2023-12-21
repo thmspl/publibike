@@ -12,7 +12,7 @@ import org.apache.http.client.methods.HttpRequestBase;
 /**
  * {@link StationRequest}
  *
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public class StationRequest extends Request<Station> {
 

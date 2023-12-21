@@ -3,7 +3,7 @@ package ch.phatec.publibike.entities;
 /**
  * {@link IEntity}
  * 
- * @author thomas pauli | phatec.ch
+ * @author thomas pauli | powlee.ch
  */
 public interface IEntity {
 

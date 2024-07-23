@@ -1,4 +1,4 @@
-package ch.phatec.publibike;
+package ch.powlee.publibike;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

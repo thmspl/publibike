@@ -1,4 +1,4 @@
-package ch.phatec.publibike.network.utils;
+package ch.powlee.publibike.network.utils;
 
 import java.net.URI;
 import java.net.URISyntaxException;

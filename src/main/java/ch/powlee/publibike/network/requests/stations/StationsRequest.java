@@ -1,10 +1,10 @@
-package ch.phatec.publibike.network.requests.stations;
+package ch.powlee.publibike.network.requests.stations;
 
-import ch.phatec.publibike.entities.Station;
+import ch.powlee.publibike.entities.Station;
 
-import ch.phatec.publibike.network.requests.Request;
-import ch.phatec.publibike.network.utils.RequestType;
-import ch.phatec.publibike.network.utils.UrlBuilder;
+import ch.powlee.publibike.network.requests.Request;
+import ch.powlee.publibike.network.utils.RequestType;
+import ch.powlee.publibike.network.utils.UrlBuilder;
 
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpRequestBase;

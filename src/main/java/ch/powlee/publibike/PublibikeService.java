@@ -1,8 +1,8 @@
-package ch.phatec.publibike;
+package ch.powlee.publibike;
 
-import ch.phatec.publibike.entities.Station;
-import ch.phatec.publibike.network.requests.stations.StationRequest;
-import ch.phatec.publibike.network.requests.stations.StationsRequest;
+import ch.powlee.publibike.entities.Station;
+import ch.powlee.publibike.network.requests.stations.StationRequest;
+import ch.powlee.publibike.network.requests.stations.StationsRequest;
 
 import java.util.Arrays;
 import java.util.List;

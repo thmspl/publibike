@@ -1,4 +1,4 @@
-package ch.phatec.publibike.network.requests;
+package ch.powlee.publibike.network.requests;
 
 import com.google.gson.Gson;
 

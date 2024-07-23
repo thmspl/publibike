@@ -1,4 +1,4 @@
-package ch.phatec.publibike.entities;
+package ch.powlee.publibike.entities;
 
 /**
  * {@link StationState}

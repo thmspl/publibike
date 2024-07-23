@@ -1,4 +1,4 @@
-package ch.phatec.publibike.entities;
+package ch.powlee.publibike.entities;
 
 import java.math.BigDecimal;
 import java.util.List;
